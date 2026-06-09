@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Welcome To Flask Application Running on Cloud !🚀"
+    return "Welcome To Jenkins Flask Application !🚀"
 
 # Debug route (important)
 @app.route("/test")
